@@ -115,7 +115,8 @@ ul {
     position: relative;
     height: 100%;
 }
-.search__svg{
+
+.search__svg {
     position: absolute;
     right: 20px;
     top: 15px;
@@ -127,29 +128,26 @@ ul {
     font-weight: 700;
     color: #666;
 }
+
 /*main*/
 
-.main{
+.main {
     display: grid;
-    grid-template-areas:
-            "booking special"
-            "about about"
-            "services services"
-            "privilege privilege"
-            "placement placement"
-            "contacts write-us";
+    grid-template-areas: "booking special" "about about" "services services" "privilege privilege" "placement placement" "contacts write-us";
 }
 
 
 /* booking */
 
-.booking{
+.booking {
     grid-area: booking;
 }
-.bookin__form{
+
+.bookin__form {
     display: flex;
     flex-direction: column;
 }
+
 .input {
     width: 520px;
     height: 70px;
@@ -189,7 +187,7 @@ ul {
 }
 
 /*specials*/
-.special{
+.special {
     grid-area: specials;
 }
 
@@ -379,7 +377,8 @@ ul {
     outline: none;
     transition: background-color, color 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
     background: #cc9933;
     color: white;
 }
@@ -413,7 +412,7 @@ ul {
 /*contacts*/
 
 
-.contacts{
+.contacts {
     padding-top: 70px;
 }
 
@@ -455,7 +454,7 @@ ul {
 .write-us {
     grid-area: write-us;
     padding-top: 70px;
-   margin: auto;
+    margin: auto;
 }
 
 .write-us__form {
@@ -485,7 +484,7 @@ ul {
     border-radius: 12px;
 }
 
-.write-us__title{
+.write-us__title {
     text-align: center;
     margin-bottom: 25px;
 }
@@ -540,11 +539,13 @@ ul {
 .social__item {
     margin-bottom: 20px;
 }
-svg{
+
+svg {
     transition: box-shadow 0.3s ease;
     border-radius: 50%;
 }
-svg:hover{
+
+svg:hover {
     box-shadow: 0 0 10px 6px white;
 }
 
